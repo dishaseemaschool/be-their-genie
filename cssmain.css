@@ -1,0 +1,80 @@
+body{
+	font-family: Titillium Web;
+	font-size: 17px;
+	text-align: center;
+}
+.row{
+	margin: 0;
+}
+.parallax-1 {
+  background-image: url("imgs/3.jpg");
+}
+.jumbo.parallax p{  
+	color: rgba(255, 255, 255, 0.8);
+    font-size: 90px;
+    line-height: 600px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.head1{
+	text-align: left;
+	font-size: 22px;
+	font-weight: 500;
+	margin-top: 40px;
+}
+.text1{
+	text-align: left;
+}
+.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+.icon-circle{
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(5,5,5,0.8);
+	border-radius: 40px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+.tile-title{
+	position: absolute;
+	top: 5%;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+	color: #eee;
+}
+
+.tile{
+	float: left;
+	width:200px;
+	position: relative;
+	padding: 1px;
+}
+
+.fa-battery-0{
+	color: #c0392b;
+}
+
+.fa-battery-2{
+	color: #f1c40f;
+}
+
+.fa-battery-4{
+	color: #27ae60;
+}
