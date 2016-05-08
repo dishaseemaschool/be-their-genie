@@ -37,8 +37,14 @@ body{
   -o-background-size: cover;
   background-size: cover;
 }
-
-
+.text-need {
+	color: #eee;
+	font-weight: 100;
+	font-size: 20px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+/*
 .icon-circle{
 	position: absolute;
 	bottom: 5%;
@@ -50,21 +56,39 @@ body{
 	font-size: 20px;
 	text-align: center;
 	line-height: 40px;
+}*/
+.icon-circle{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-left: 10px; 
+	padding-right: 10px; 
+	position: absolute;
+	bottom: 5%;
+	width: 80%;
+	background-color: rgba(5,5,5,0.8);
+	border-radius: 20px;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
 }
 .tile-title{
+	width: 99%;
 	position: absolute;
 	top: 5%;
 	font-size: 20px;
 	text-align: center;
 	line-height: 40px;
+	background-color: rgba(10,10,10,0.6);
 	color: #eee;
+	font-weight: 700;
 }
 
 .tile{
 	float: left;
-	width:200px;
+	width:250px;
 	position: relative;
 	padding: 1px;
+	cursor: pointer;
 }
 
 .fa-battery-0{
