@@ -25,32 +25,34 @@ var wishlist = [
 		'link':'http://www.flipkart.com/durian-alden-b-stainless-steel-collapsible-wardrobe/p/itmeg4ug49zrufqr?pid=CWDEG4UGAVQHVVFV&al=SjMsdDNFPsWUdjJlkNmJi8ldugMWZuE75aUsiwTbcEM6Re4IzNLHsYiZKpH4wXUoFooWMqSTJgI%3D&ref=L%3A7915270700945263890&srno=p_18&findingMethod=Search&otracker=start'
 		'units_needed' : 2,
 		'units_fulfilled' : 0,
-		'cost' : 7000,
+		'cost' : 16575,
 		'status' : 0,
 		'imageURL' : 'imgs/5.jpg'
 	},
 	{
-		'title' : 'Cricket Bats',
+		'title' : 'CFL Lights',
 		'descrip' : '',
-		'units_needed' : 10,
-		'units_fulfilled' : 3,
-		'cost' : 500,
+		'link':'http://www.flipkart.com/aae-20-w-cfl-eurolex-bulb/p/itmegggefyd8bmfr?pid=BLBEGGGEG9Z2N5AE&al=SjMsdDNFPsV%2FPzivkln5t8ldugMWZuE7mxWx381qOwQa%2FjQIklnJgm7vnBP%2FpPGoBNq388G1Nq4%3D&ref=L%3A-7182202938594606719&srno=p_1&otracker=from-search'
+		'units_needed' : 2,
+		'units_fulfilled' : 0,
+		'cost' : 200,
 		'status' : 0,
 		'imageURL' : 'imgs/5.jpg'
 	},
 	{
-		'title' : 'Cricket Bats',
-		'descrip' : '',
-		'units_needed' : 10,
-		'units_fulfilled' : 3,
-		'cost' : 500,
+		'title' : 'Large Kadai',
+		'descrip' : 'Cooking Utensil 15+ L',
+		'units_needed' : 1,
+		'units_fulfilled' : 0,
+		'cost' : 1300,
 		'status' : 0,
 		'imageURL' : 'imgs/5.jpg'
 	},
 	{
-		'title' : 'Cricket Bats',
-		'descrip' : '',
-		'units_needed' : 10,
+		
+		'title' : 'Large Dekchi',
+		'descrip' : 'Cooking Utensil 15+ L',
+		'units_needed' : 1,
 		'units_fulfilled' : 3,
 		'cost' : 500,
 		'status' : 0,
