@@ -53,16 +53,17 @@ var wishlist = [
 		'title' : 'Large Dekchi',
 		'descrip' : 'Cooking Utensil 15+ L',
 		'units_needed' : 1,
-		'units_fulfilled' : 3,
-		'cost' : 500,
+		'units_fulfilled' : 0,
+		'cost' : 0,
 		'status' : 0,
 		'imageURL' : 'imgs/5.jpg'
 	},
 	{
 		'title' : 'Cricket Bats',
 		'descrip' : '',
-		'units_needed' : 10,
-		'units_fulfilled' : 3,
+		'add_descrip': 'Bats of different sizes are needed'
+		'units_needed' : 5,
+		'units_fulfilled' : 0,
 		'cost' : 500,
 		'status' : 0,
 		'imageURL' : 'imgs/5.jpg'
