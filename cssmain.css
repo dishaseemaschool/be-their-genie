@@ -1,5 +1,5 @@
 body{
-	font-family: Titillium Web;
+	font-family: Lato;
 	font-size: 17px;
 	text-align: center;
 }
@@ -7,22 +7,27 @@ body{
 	margin: 0;
 }
 .parallax-1 {
-  background-image: url("imgs/3.jpg");
+  background-image: url("imgs/3.jpg");\
 }
+
+.parallax-2{
+  background-image: url("imgs/5.jpg");
+  }
+
 .jumbo.parallax p{  
 	color: rgba(255, 255, 255, 0.8);
     font-size: 90px;
     line-height: 600px;
-    font-weight: 700;
+    font-weight: 900;
     text-align: center;
     text-transform: uppercase;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 .head1{
 	text-align: left;
-	font-size: 22px;
-	font-weight: 500;
+	font-size: 42px;
 	margin-top: 40px;
+	font-family: Aguafina Script;
 }
 .text1{
 	text-align: left;
@@ -44,6 +49,30 @@ body{
 	margin-top: 1px;
 	margin-bottom: 1px;
 }
+.tile-wish1{
+	font-size: 16px;
+}
+
+.tile-wish2{
+	font-size:60px;
+	color: #27ae60;
+	font-weight: 900;
+	line-height: 0.5;
+}
+
+.tile-wish3{
+	font-size:60px;
+	color: #c0392b;
+	font-weight: 900;
+	line-height: 0.5;
+}
+
+.tile-wish4{
+	text-align: left;
+	font-size: 20px;
+	color: #333;
+}
+
 /*
 .icon-circle{
 	position: absolute;
@@ -72,23 +101,48 @@ body{
 	line-height: 40px;
 }
 .tile-title{
-	width: 99%;
-	position: absolute;
-	top: 5%;
-	font-size: 20px;
+	font-size: 40px;
 	text-align: center;
-	line-height: 40px;
-	background-color: rgba(10,10,10,0.6);
-	color: #eee;
-	font-weight: 700;
+	color: #333;
 }
 
 .tile{
-	float: left;
-	width:250px;
-	position: relative;
-	padding: 1px;
-	cursor: pointer;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #eee;
+}
+.card{
+	padding: 20px;
+	background: #fff;
+	height: 600px;
+}
+.tile-descrip {
+	text-align: left;
+}
+.buttony{
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+	width: 90%;
+	font-size: 16px;
+}
+
+.minicard1{
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	bottom: 15%;
+	right: 5%;
+}
+
+.minicard2{
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	bottom: 15%;
+	left: 5%;
 }
 
 .fa-battery-0{

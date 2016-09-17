@@ -150,14 +150,27 @@ var wishlist = [{
 }];
 window.onload = function() {
     for (var i = 0; i < wishlist.length; i++) {
-        var tile = $("<div></div>").addClass("tile");
-        tile.append($("<p></p>").addClass("tile-title").html(wishlist[i].title));
-        var icondiv = $("<div></div>").addClass("icon-circle");
-        var pofind = $("<p></p>").addClass("text-need").html(wishlist[i].units_needed + " more needed  ");
-        pofind.append($("<i></i>").addClass("fa fa-battery-" + wishlist[i].status));
-        icondiv.append(pofind);
-        tile.append(icondiv);
-        tile.append($("<img></img>").attr("src", wishlist[i].imageURL).addClass("img-responsive tiles"));
+        var tile = $("<div></div>").addClass("tile col-md-4");
+        var card = $("<div></div>").addClass("card col-md-12");
+        //var icondiv = $("<div></div>").addClass("icon-circle");
+        //var pofind = $("<p></p>").addClass("text-need").html(wishlist[i].units_needed + " more needed  ");
+        //pofind.append($("<i></i>").addClass("fa fa-battery-" + wishlist[i].status));
+        //icondiv.append(pofind);
+        card.append($("<img></img>").attr("src", wishlist[i].imageURL).addClass("img-responsive tiles col-md-12"));
+        card.append($("<p></p>").addClass("tile-title col-md-12").html(wishlist[i].title));
+        card.append($("<p></p>").addClass("tile-descrip col-md-12").html(wishlist[i].descrip));
+        card.append($("<button></button>").addClass("btn btn-danger buttony").html("Fulfill Wish <i class='fa fa-heart' aria-hidden='true'></i>"));
+        var minicard1 = $("<div></div>").addClass("minicard1 col-md-6");
+        var minicard2 = $("<div></div>").addClass("minicard2 col-md-6");
+        minicard1.append($("<p></p>").addClass("tile-wish1 col-md-12").html('Wishes Fulfilled'));
+        minicard1.append($("<p></p>").addClass("tile-wish2 col-md-12").html(wishlist[i].units_fulfilled));
+        minicard2.append($("<p></p>").addClass("tile-wish1 col-md-12").html('Wishes Remaining'));
+        minicard2.append($("<p></p>").addClass("tile-wish3 col-md-12").html(wishlist[i].units_needed));
+        
+        card.append($("<p></p>").addClass("tile-wish4 col-md-12").html('Approx. Cost per Unit : ' + wishlist[i].cost + ' <i class="fa fa-inr" aria-hidden="true"></i>'));
+        card.append(minicard2);
+        card.append(minicard1);
+        tile.append(card);
         $(".tile-group").append(tile);
     }
 }
