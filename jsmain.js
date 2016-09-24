@@ -175,14 +175,10 @@ var wishlist = [{
 }];
 
 var genielist =[{
-	"name" : "Vikipik",
-	"message" : "I am such a dumbi!"
-},{
-	"name" : "ChinniLee",
-	"message" : "I am such a dumbi!"
-},{
-	"name" : "ChikkipillyWee",
-	"message" : "I am such a dumbi!"
+
+	"name" : "",
+	"message" : 'Be our first genie! :)'
+
 }]
 window.onload = function() {
     for (var i = 0; i < wishlist.length; i++) {
@@ -215,7 +211,7 @@ window.onload = function() {
         minicard.append(minicard1);
         card.append(minicard);
 
-        card.append($("<button></button>").addClass("btn btn-danger buttony").html("Fulfill Wish <i class='fa fa-heart' aria-hidden='true'></i>"));
+        card.append($("<a></a>").addClass("btn btn-danger buttony").attr("href","#formy").html("Fulfill Wish <i class='fa fa-heart' aria-hidden='true'></i>"));
         tile.append(card);
         $(".tile-group").append(tile);
     }
@@ -223,7 +219,7 @@ window.onload = function() {
     for (var j=0;j<genielist.length;j++){
     	var geniecard = $("<div></div>").addClass("genie-tile col-md-12");
     	geniecard.append($("<p></p>").addClass("genie-name").html(genielist[j].name));
-    	geniecard.append($("<p></p>").addClass("genie-message").html('" '+genielist[j].message+' "'));
+    	geniecard.append($("<p></p>").addClass("genie-message").html(genielist[j].message));
     	geniecard.append($("<hr>").addClass("hori"));
     	$(".genies2").append(geniecard);
     }
