@@ -9,7 +9,7 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Food-eggs-box_%2824326315095%29.jpg'
 }, {
     'title': 'Milk',
-    'descrip': 'Milk is necessary for nutrition, in growing kids.',
+    'descrip': 'Milk is necessary for nutrition, in growing kids. At Rs 20/500mL, the cost of having mounts to Rs 4320 a week.',
     'link':'','units_needed': '',
     'units_fulfilled': '',
     'cost': '',
