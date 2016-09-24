@@ -1,0 +1,163 @@
+
+
+body{
+	font-family: Lato;
+	font-size: 17px;
+	text-align: center;
+}
+.row{
+	margin: 0;
+}
+.parallax-1 {
+  background-image: url("imgs/3.jpg");\
+}
+
+.parallax-2{
+  background-image: url("imgs/5.jpg");
+  }
+
+.jumbo.parallax p{  
+	color: rgba(255, 255, 255, 0.8);
+    font-size: 90px;
+    line-height: 600px;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.head1{
+	text-align: left;
+	font-size: 42px;
+	margin-top: 40px;
+	font-family: Aguafina Script;
+}
+.text1{
+	text-align: left;
+}
+.parallax {
+  height: 600px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.text-need {
+	color: #eee;
+	font-weight: 100;
+	font-size: 20px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.tile-wish1{
+	font-size: 16px;
+}
+
+.tile-wish2{
+	font-size:60px;
+	color: #27ae60;
+	font-weight: 900;
+	line-height: 0.5;
+}
+
+.tile-wish3{
+	font-size:60px;
+	color: #c0392b;
+	font-weight: 900;
+	line-height: 0.5;
+}
+
+.tile-wish4{
+	text-align: left;
+	font-size: 16px;
+	color: #333;
+	border-bottom: 1px #eee solid;
+	padding-bottom: 15px;
+}
+
+.tile-title{
+	font-size: 40px;
+	text-align: center;
+	color: #333;
+}
+
+.tile{
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #eee;
+	display: flex; 
+}
+.card p {
+  flex: 1 0 auto;
+}
+.card{
+	padding: 20px;
+	background: #fff;
+	display: flex;
+   flex-direction: column;
+   width: 100%;
+}
+.tile-descrip {
+	text-align: left;
+}
+.tile-group{
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 50px;
+
+}
+.buttony{
+	text-align: center;
+	width: 100%;
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.minicard1{
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+
+.minicard2{
+	font-size: 15px;
+	padding: 0;
+	margin: 0;
+}
+.genies{
+	padding: 30px;
+	background: #333;
+}
+.genies2{
+	background: #fff;
+	border-radius: 5px;
+	margin: 2px;
+}
+.genie-name{
+	margin-top: 20px;
+	margin-left: 40px;
+	font-size: 20px;
+	text-align: left;
+}
+
+.genie-message{
+	font-size: 15px;
+	color: #666;
+}
+.tiles{
+	-webkit-filter:grayscale(100%);
+	filter: grayscale(100%);
+  height: 200px;
+  object-fit: cover;
+}
+.footer{
+	color: #eee;
+	font-family:Lato;
+	font-weight:100
+}
+
+.hori{
+	margin-top: 0px;
+}
