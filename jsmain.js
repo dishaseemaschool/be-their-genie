@@ -9,7 +9,7 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Food-eggs-box_%2824326315095%29.jpg'
 }, {
     'title': 'Milk',
-    'descrip': 'Milk is necessary for nutrition, in growing kids. At Rs 20/500mL, the cost of having mounts to Rs 4320 a week.',
+    'descrip': 'Milk is necessary for nutrition, in growing kids. At Rs 20/500mL, the cost of having milk amounts to Rs 4320 a week.',
     'link':'','units_needed': '',
     'units_fulfilled': '',
     'cost': '',
@@ -17,7 +17,7 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Milk_glass.jpg'
 },{
     'title': 'Water Purifier',
-    'descrip': 'There is currently one water purifier installed at the boys hostel near classrooms. However, the girls stay in a separate building at the other end of the compound, and since the distance to teh purifier is large, they resort to drinking tap water. However, funds are currently not available to purchase a separate one for the girls.',
+    'descrip': 'There is currently one water purifier installed at the boys hostel near classrooms. However, the girls stay in a separate building at the other end of the compound, and since the distance to the purifier is large, they resort to drinking tap water. However, funds are currently not available to purchase a separate one for the girls.',
     'units_needed': '1',
     'link':'http://www.amazon.in/Eureka-Forbes-Aquaguard-Compact-Purifier/dp/B00HPTMZB6/ref=sr_1_9?ie=UTF8&qid=1474695861&sr=8-9&keywords=aquaguard',
     'units_fulfilled': '0',
