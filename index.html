@@ -13,15 +13,17 @@
 </head>
 
 <body>
-
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=1132621580160615";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+    <div id="fb-root"></div>
+    <script>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.7&appId=1132621580160615";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
     <nav class="navbar navbar-fixed-top navbar-default" style="background-color:#eeeeee">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -53,15 +55,44 @@
         <div class="col-md-8 col-md-offset-2">
             <div>
                 <p class="head1">What is this?</p>
-                <p class="text1">This is a wishlist, by the students studying at Disha Seema. Disha Seema is a residential school at IIT Kharagpur hosting 300+ students from underprivileged backgrounds in rural West Bengal, Jharkhand and Orissa. It was established in 1992 by Hansa Nundi, a 1964 alumnus of IIT kharagpur and the first woman to graduate from the Electrical Engineering Department. The school has a library, </p>
+                <p class="text1">This is a wishlist, by the students studying at Disha Seema. Disha Seema is a residential school at IIT Kharagpur hosting 300+ students from underprivileged backgrounds in rural West Bengal, Jharkhand and Orissa. It was established in 1992 by Hansa Nundi, a 1964 alumnus of IIT Kharagpur and the first woman to graduate from the Electrical Engineering Department. The school has a library, an aquaguard, a television, a park made of tires among other facilities. The school is supported by donations from alumni and well-wishers but with the burgeoning number of students, they are always short of money, to the extent that most kids have never had milk or eggs. </p>
             </div>
             <div>
                 <p class="head1">How can I help?</p>
-                <p class="text1">This is a wishlist, by the students studying at Disha seema.Lorem ipsum dolor sit amet, legimus invenire eos at, usu petentium democritum voluptatibus cu, docendi erroribus vim te. Et invidunt mandamus mea. Tritani suscipit assentior no ius, qui cu wisi falli conceptam. Cu labitur epicurei persequeris pro. An illud soleat eruditi his, placerat recusabo duo no. Nullam prompta contentiones sed at, omnes dissentiet id est.Ex est possim nominavi. At quis inermis est. In nominati delicata eos, at usu lucilius intellegebat consequuntur. Est eu dolore aperiri dignissim, duis latine tamquam usu ut. Ne hinc aperiam eam. Animal dolores reprehendunt no vis, ex has suas porro. Ea vim timeam euismod incorrupte, voluptua atomorum qualisque te has.</p>
+                <p class="text1">This is a wishlist containing the things that they cannot afford. You can help us fulfill some of them. Some items in the wishlist such cricket bats or mosquito nets can be bought online and sent to their address. We've added links to e-commerce websites offering the item at the cheapest price, wherever possible. PLease fill the form to let us know you've bought the item so we can take it off the list and attribute the contribution to you. However, some items like eggs or milk cannot be bought online, and some items such as large kadai are not available at best prices online. In such cases we suggest that you send us the money and contact us before doing so. </p>
             </div>
             <div>
                 <p class="head1">How do I know my money is best used here?</p>
-                <p class="text1">This is a wishlist, by the students studying at Disha seema.Lorem ipsum dolor sit amet, legimus invenire eos at, usu petentium democritum voluptatibus cu, docendi erroribus vim te. Et invidunt mandamus mea. Tritani suscipit assentior no ius, qui cu wisi falli conceptam. Cu labitur epicurei persequeris pro. An illud soleat eruditi his, placerat recusabo duo no. Nullam prompta contentiones sed at, omnes dissentiet id est.Ex est possim nominavi. At quis inermis est. In nominati delicata eos, at usu lucilius intellegebat consequuntur. Est eu dolore aperiri dignissim, duis latine tamquam usu ut. Ne hinc aperiam eam. Animal dolores reprehendunt no vis, ex has suas porro. Ea vim timeam euismod incorrupte, voluptua atomorum qualisque te has.</p>
+                <p class="text1">We will send you cute pictures of the kids making use of your donations. :) </p>
+            </div>
+            <div>
+                <p class="head1">Details</p>
+                <p class="text1">
+                    <div style="text-align:left">
+                        <p>FCRA Account Number(For donations from outside India): 344412922131
+                            <br> Account Number(For donations from within India):34735977818
+                            <br> Account Holder's Name: Jyoti Development Trust (The parent organisation of the school)</p>
+                        <div class="col-md-5 col-md-offset-1" style="margin-top:20px;margin-bottom:20px;">
+                            <p><b>Contact:</b>
+                                <br> Hansa Nundy, Founder of Disha Seema School
+                                <br> Phone: 9933191066
+                                <br>
+                            </p>
+                            <p>Keerthana P G, student at IIT Kharagpur
+                                <br> Email: keerthanpg@gmail.com
+                                <br> Phone: 9002285251/9091402205</p>
+                        </div>
+                        <div class="col-md-5 col-md-offset-1" style="margin-top:20px;margin-bottom:20px;">
+                            <p><b>Address:</b>
+                                <br> Disha Seema School
+                                <br> Behind Rural Development Centre,
+                                <br> IIT Kharagpur,
+                                <br> West Midinipur,
+                                <br> West Bengal-721301
+                                <br>
+                            </p>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
@@ -74,36 +105,24 @@
         </div>
     </div>
     <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-
     <div>
         <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_ED7DR7KGiPVw2r89hSB6IIbLnLzKl_MoUKgLmPmFTnzEsw/viewform?embedded=true" width="560" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
     </div>
-
     <div class="row" style="background-color:#333">
-
-            <p style="font-size: 80px; font-weight: 900;color:#eee">Our Genies</p>
-            <div class="genies col-md-6 col-md-offset-3">  
-            <div class="col-md-12 genies2"></div>           	
-            </div>
-    </div>
-    
-    <footer style="background-color: #222;position: absolute;width: 100%; padding:20px">
-    <div class="col-md-3 col-md-offset-1" style="margin-top:50px">
-    	
-        <p class="footer">Keerthana Gopalakrishnan</p>
-        <p class="footer">+91-9091402205</p>
-        <p class="footer">keerthanpg@gmail.com</p>
+        <p style="font-size: 80px; font-weight: 900;color:#eee">Our Genies</p>
+        <div class="genies col-md-6 col-md-offset-3">
+            <div class="col-md-12 genies2"></div>
         </div>
-    <div class="col-md-3" style="margin-top:50px">
-    	
-        <p class="footer">Vivek Aithal</p>
-        <p class="footer">+91-9916733098</p>
-        <p class="footer">vivekaithal44@gmail.com</p>
     </div>
-    <div class="col-md-4">
-    	
-    <div class="fb-page" data-href="https://www.facebook.com/dishaseemacentre/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/dishaseemacentre/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dishaseemacentre/">Disha Seema School</a></blockquote></div>
-    </div>
+    <footer style="background-color: #222;position: absolute;width: 100%; padding:20px">
+        <div class="col-md-12 " style="margin-top:10px">
+            <p class="footer"> Made with <i class='fa fa-heart' aria-hidden='true'></i> by Keerthana & Vivek</p>
+        </div>
+        <div class="col-md-12">
+            <div class="fb-page" data-href="https://www.facebook.com/dishaseemacentre/" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/dishaseemacentre/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/dishaseemacentre/">Disha Seema School</a></blockquote>
+            </div>
+        </div>
     </footer>
 </body>
 
