@@ -130,19 +130,20 @@ body{
 	padding: 30px;
 	background: #333;
 }
-.genie-name{
-	margin-top: 40px;
-	margin-left: 40px;
-	font-size: 30px;
-	text-align: left;
-}
-.genie-tile{
+.genies2{
+	background: #fff;
 	border-radius: 5px;
-	background: #eee;
 	margin: 2px;
 }
+.genie-name{
+	margin-top: 20px;
+	margin-left: 40px;
+	font-size: 20px;
+	text-align: left;
+}
+
 .genie-message{
-	font-size: 17px;
+	font-size: 15px;
 	color: #666;
 }
 .tiles{
@@ -151,5 +152,12 @@ body{
   height: 200px;
   object-fit: cover;
 }
+.footer{
+	color: #eee;
+	font-family:Lato;
+	font-weight:100
+}
 
-
+.hori{
+	margin-top: 0px;
+}

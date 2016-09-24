@@ -8,12 +8,29 @@ var wishlist = [{
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/7/7c/Food-eggs-box_%2824326315095%29.jpg'
 }, {
+    'title': 'Milk',
+    'descrip': 'Milk is necessary for nutrition, in growing kids.',
+    'link':'','units_needed': '',
+    'units_fulfilled': '',
+    'cost': '',
+    'status': 0,
+    'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Milk_glass.jpg'
+},{
+    'title': 'Aquaguard',
+    'descrip': 'To be installed in the living area, so thats the kids have access to safe drinking water at all times',
+    'units_needed': '1',
+    'link':'http://www.amazon.in/Eureka-Forbes-Aquaguard-Compact-Purifier/dp/B00HPTMZB6/ref=sr_1_9?ie=UTF8&qid=1474695861&sr=8-9&keywords=aquaguard',
+    'units_fulfilled': '0',
+    'cost': 7799.00,
+    'status': 0,
+    'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Aquaguard_Water_Purifier_RO_Enhanced_-_Snap_2585.JPG'
+},{
     'title': 'Mosquito Net',
     'descrip': '6.5*6.5 sq. ft. mosquito nets for the kids to sleep in. This is an important necessity, especially during the monsoon season.',
     'link': 'http://www.amazon.in/Blue-Classic-Heavy-Delux-Mosquito/dp/B01EJU6DQG/ref=sr_1_2?ie=UTF8&qid=1462739531&sr=8-2-spons&keywords=mosquito+net&psc=1',
     'units_needed': 4,
     'units_fulfilled': 0,
-    'cost': 489.00,
+    'cost': 650.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/2/23/Malaria_prevention-Insecticide_treated_bed_net-PMI.jpg'
 },{
@@ -37,15 +54,16 @@ var wishlist = [{
 }, {
     'title': 'CFL Lights',
     'descrip': 'Energy efficient CFL lights are needed to, as there are no streetlights nearby. Lights are needed in the dormitories and corridors.',
-    'link': 'http://www.flipkart.com/aae-20-w-cfl-eurolex-bulb/p/itmegggefyd8bmfr?pid=BLBEGGGEG9Z2N5AE&al=SjMsdDNFPsV%2FPzivkln5t8ldugMWZuE7mxWx381qOwQa%2FjQIklnJgm7vnBP%2FpPGoBNq388G1Nq4%3D&ref=L%3A-7182202938594606719&srno=p_1&otracker=from-search',
+    'link': 'http://www.amazon.in/Eveready-ELS-27-Watt-White-Pack/dp/B00HYBF0F8/ref=sr_1_1?ie=UTF8&qid=1474696445&sr=8-1&keywords=cfl+lights',
     'units_needed': 5,
     'units_fulfilled': 0,
-    'cost': 200,
+    'cost': '339 (for 2)',
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/b/bb/CFL-grow-light-dual-spectrum.jpg'
 }, {
     'title': 'Large Kadai',
     'descrip': 'Cooking Utensil 15+ L, for hassle-free cooking',
+    'link':'',
     'units_needed': 1,
     'units_fulfilled': 0,
     'cost': 1300,
@@ -55,6 +73,7 @@ var wishlist = [{
 
     'title': 'Large Dekchi',
     'descrip': 'Cooking Utensil 15+ L, much needed in the kitchen',
+    'link':'',
     'units_needed': 1,
     'units_fulfilled': 0,
     'cost': 500,
@@ -63,89 +82,94 @@ var wishlist = [{
 }, {
     'title': 'Cricket Bats',
     'descrip': 'The kids play cricket, and new bats would be lovely',
+    'link':'http://www.amazon.in/Pepup-Sports-Striker05-Himachal-FinishTennis/dp/B00KMUO7IE/ref=sr_1_6?s=sports&ie=UTF8&qid=1474696924&sr=1-6&keywords=kids+cricket+bat',
     'units_needed': 4,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 399,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/c/c6/A_modern_Cricket_bat_%28back_view%29.jpg'
 }, {
     'title': 'Bharatanatyam Costumes',
     'descrip': 'The kids are learning Bharatanatyam and intend to have shows either in the premises or during IITKGP events. Costumes would encourage and motivate them to embrace the art',
-    'units_needed': 4,
+    'link':'','units_needed': 4,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 1500.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/6/6a/Bharata_Natyam_Performance_DS.jpg'
 }, {
     'title': 'Make-up kit',
     'descrip': 'Needed for special events when the kids put up shows',
-    'units_needed': 1,
+    'link':'','units_needed': 1,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 2000.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/1/16/Makeup_Kit_5-5-09_IMG_3543.jpg'
 }, {
     'title': 'DVD Player',
     'descrip': 'A DVD player is necessary for general entertainment purposes, and for watching educational material',
+    'link':'http://www.amazon.in/Philips-2000-DVP2850MK2-94-Player/dp/B00G7HS0C0/ref=sr_1_1?s=electronics&ie=UTF8&qid=1474697781&sr=1-1&keywords=dvd+player',
     'units_needed': 1,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 2038.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/6/6e/DVD_Player_Yamaha_S540.JPG'
 }, {
     'title': 'Ceiling Fans',
     'descrip': 'Ceiling fans are required in the classrooms and in the dormitories',
+    'link':'http://www.amazon.in/gp/offer-listing/B014RCZFY2/ref=dp_olp_new_mbc',
     'units_needed': 3,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 1700.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/1/17/Ventilatore_a_soffitto_%283%29.png'
 }, {
     'title': 'Cloth for Uniform',
     'descrip': 'The kids currently do not have any uniforms, and moving towards one will be delightful, for them',
-    'units_needed': '-',
+    'link':'','units_needed': '-',
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 8000.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/2/28/Indian_school_children_at_Hnahthial.jpg'
 }, {
     'title': 'Large Trunks',
     'descrip': 'Large trunks are needed for kids to store their belongings, safely. Currently, many have to share trunks or keep their belonging in the open',
-    'units_needed': 2,
+    'link':'','units_needed': 2,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 1200.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/6/63/Baggage_cases_luggage_trunks_Epping-Ongar-Railway_North_Weald_Essex_England.jpg'
 }, {
     'title': 'Carrom Board',
     'descrip': 'Carrom Board will be a fun addition to the indoor activities, the kids indulge in.',
+    'link':'http://www.amazon.in/gp/offer-listing/B01IH78HX4/ref=dp_olp_new_mbc?ie=UTF8&condition=new',
     'units_needed': 1,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 1500.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Carrom_board.jpg'
 }, {
     'title': 'Volleyball Net',
     'descrip': 'They could serve as general purpose nets for other sports like throwball, badminton, etc',
-    'units_needed': 2,
+    'link':'http://www.amazon.in/SWISS-PRO-volley-ball-net/dp/B00YEKICRU/ref=sr_1_1?ie=UTF8&qid=1474699391&sr=8-1&keywords=volleyball+net','units_needed': 2,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 300.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/2/29/Siatka.jpg'
 }, {
     'title': 'Volleyballs',
     'descrip': '',
+    'link':'http://www.amazon.in/Cosco-Shot-Volleyball-4/dp/B00ID6OX7E/ref=sr_1_2?s=sports&ie=UTF8&qid=1474699434&sr=1-2&keywords=volleyballs',
     'units_needed': 2,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 350.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Beach_volleyball_ball.jpg'
 }, {
     'title': 'Football Shoes',
     'descrip': 'The kids are getting coached, and would love to play in proper football shoes',
-    'units_needed': 22,
+    'link':'','units_needed': 22,
     'units_fulfilled': 0,
-    'cost': 0,
+    'cost': 400.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/f/f3/Adidas_Futbol_C.jpg'
 }];
@@ -171,7 +195,12 @@ window.onload = function() {
         card.append($("<img></img>").attr("src", wishlist[i].imageURL).addClass("img-responsive tiles col-md-12"));
         card.append($("<p></p>").addClass("tile-title col-md-12").html(wishlist[i].title));
         card.append($("<p></p>").addClass("tile-descrip col-md-12").html(wishlist[i].descrip));
-        card.append($("<a></a>").addClass("tile-descrip col-md-12").attr("href", wishlist[i].link).html("Amazon/Flipkart link"));
+        if(wishlist[i].link!=''){
+        	card.append($("<a></a>").addClass("tile-descrip col-md-12").attr("href", wishlist[i].link).html("Amazon/Flipkart link"));	
+        }
+        else{
+        	card.append($("<p></p>").addClass("tile-descrip col-md-12").html("[This item is not on amazon/flipkart or has size requirements. So, transfer the money into the above mentioned account number, and the items shall be bought.]"));	
+        }
         //card.append($("<button></button>").addClass("btn btn-danger buttony").html("Fulfill Wish <i class='fa fa-heart' aria-hidden='true'></i>"));
         var minicard = $("<div></div>").addClass("minicard1 col-md-12");
         var minicard1 = $("<div></div>").addClass("minicard1 col-md-6");
@@ -195,6 +224,7 @@ window.onload = function() {
     	var geniecard = $("<div></div>").addClass("genie-tile col-md-12");
     	geniecard.append($("<p></p>").addClass("genie-name").html(genielist[j].name));
     	geniecard.append($("<p></p>").addClass("genie-message").html('" '+genielist[j].message+' "'));
-    	$(".genies").append(geniecard);
+    	geniecard.append($("<hr>").addClass("hori"));
+    	$(".genies2").append(geniecard);
     }
 }
