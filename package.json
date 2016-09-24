@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nuwandavek/be-their-genie.git"
+    "url": "https://github.com/dishaseemaschool/be-their-genie.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nuwandavek/be-their-genie/issues"
+    "url": "https://github.com/dishaseemaschool/be-their-genie/issues"
   },
-  "homepage": "https://github.com/nuwandavek/be-their-genie",
+  "homepage": "https://github.com/dishaseemaschool/be-their-genie",
   "dependencies": {
     "grunt": "^0.4.5"
   },
