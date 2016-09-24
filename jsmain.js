@@ -1,6 +1,6 @@
 var wishlist = [{
     'title': 'Eggs',
-    'descrip': 'Eggs, twice a week, is necessary for the growth of kids. Even if given eggs half a year, twice a week, the cost runs to around 50k',
+    'descrip': 'Eggs are a rich source of protein and an invaluable addition to the diet of a growing child. With Rs 3.5 an egg, the cost comes to Rs 2100 a week, and Rs 52500 for half year.',
     'units_needed': '',
     'link':'',
     'units_fulfilled': '',
@@ -16,8 +16,8 @@ var wishlist = [{
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/0/0e/Milk_glass.jpg'
 },{
-    'title': 'Aquaguard',
-    'descrip': 'To be installed in the living area, so thats the kids have access to safe drinking water at all times',
+    'title': 'Water Purifier',
+    'descrip': 'There is currently one water purifier installed at the boys hostel near classrooms. However, the girls stay in a separate building at the other end of the compound, and since the distance to teh purifier is large, they resort to drinking tap water. However, funds are currently not available to purchase a separate one for the girls.',
     'units_needed': '1',
     'link':'http://www.amazon.in/Eureka-Forbes-Aquaguard-Compact-Purifier/dp/B00HPTMZB6/ref=sr_1_9?ie=UTF8&qid=1474695861&sr=8-9&keywords=aquaguard',
     'units_fulfilled': '0',
@@ -26,7 +26,7 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Aquaguard_Water_Purifier_RO_Enhanced_-_Snap_2585.JPG'
 },{
     'title': 'Mosquito Net',
-    'descrip': '6.5*6.5 sq. ft. mosquito nets for the kids to sleep in. This is an important necessity, especially during the monsoon season.',
+    'descrip': '6.5*6.5 sq. ft. mosquito nets for the kids to sleep in. This is an important necessity, especially during the monsoon seasons where dengue is at large.',
     'link': 'http://www.amazon.in/Blue-Classic-Heavy-Delux-Mosquito/dp/B01EJU6DQG/ref=sr_1_2?ie=UTF8&qid=1462739531&sr=8-2-spons&keywords=mosquito+net&psc=1',
     'units_needed': 4,
     'units_fulfilled': 0,
@@ -53,7 +53,7 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/4/46/Alamari.jpg'
 }, {
     'title': 'CFL Lights',
-    'descrip': 'Energy efficient CFL lights are needed to, as there are no streetlights nearby. Lights are needed in the dormitories and corridors.',
+    'descrip': 'Energy efficient CFL lights are needed to, as there are no streetlights nearby. Lights are needed in the dormitories and classrooms as well.',
     'link': 'http://www.amazon.in/Eveready-ELS-27-Watt-White-Pack/dp/B00HYBF0F8/ref=sr_1_1?ie=UTF8&qid=1474696445&sr=8-1&keywords=cfl+lights',
     'units_needed': 5,
     'units_fulfilled': 0,
@@ -81,16 +81,16 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/0/0b/Kadai_and_a_dekchi.JPG'
 }, {
     'title': 'Cricket Bats',
-    'descrip': 'The kids play cricket, and new bats would be lovely',
+    'descrip': 'The kids play cricket often substituting tree stumps for bats. New bats could make their life easier as well as open up the sport for kids of all ages and girls.',
     'link':'http://www.amazon.in/Pepup-Sports-Striker05-Himachal-FinishTennis/dp/B00KMUO7IE/ref=sr_1_6?s=sports&ie=UTF8&qid=1474696924&sr=1-6&keywords=kids+cricket+bat',
-    'units_needed': 4,
+    'units_needed': 10,
     'units_fulfilled': 0,
     'cost': 399,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/c/c6/A_modern_Cricket_bat_%28back_view%29.jpg'
 }, {
     'title': 'Bharatanatyam Costumes',
-    'descrip': 'The kids are learning Bharatanatyam and intend to have shows either in the premises or during IITKGP events. Costumes would encourage and motivate them to embrace the art',
+    'descrip': 'The kids are learning Bharatanatyam and intend to perform either in the premises or during IITKGP events. However, they currently lack the funds to buy costumes. Costumes would encourage and motivate them to embrace the art',
     'link':'','units_needed': 4,
     'units_fulfilled': 0,
     'cost': 1500.00,
@@ -106,7 +106,7 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/1/16/Makeup_Kit_5-5-09_IMG_3543.jpg'
 }, {
     'title': 'DVD Player',
-    'descrip': 'A DVD player is necessary for general entertainment purposes, and for watching educational material',
+    'descrip': 'The kids have audio-visual sessions on Sundays where cartoon movies are played. A DVD player is necessary for watching movies and educational material',
     'link':'http://www.amazon.in/Philips-2000-DVP2850MK2-94-Player/dp/B00G7HS0C0/ref=sr_1_1?s=electronics&ie=UTF8&qid=1474697781&sr=1-1&keywords=dvd+player',
     'units_needed': 1,
     'units_fulfilled': 0,
@@ -140,7 +140,7 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/6/63/Baggage_cases_luggage_trunks_Epping-Ongar-Railway_North_Weald_Essex_England.jpg'
 }, {
     'title': 'Carrom Board',
-    'descrip': 'Carrom Board will be a fun addition to the indoor activities, the kids indulge in.',
+    'descrip': 'Carroms will be a useful addition to the indoor activities the kids indulge in.',
     'link':'http://www.amazon.in/gp/offer-listing/B01IH78HX4/ref=dp_olp_new_mbc?ie=UTF8&condition=new',
     'units_needed': 1,
     'units_fulfilled': 0,
@@ -149,7 +149,7 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/4/4d/Carrom_board.jpg'
 }, {
     'title': 'Volleyball Net',
-    'descrip': 'They could serve as general purpose nets for other sports like throwball, badminton, etc',
+    'descrip': 'This could also serve as a general purpose nets for other sports like throwball, badminton, etc. There are quite many kids interested in these sports. However, they currently substitute a net with a rope tied between two long poles.',
     'link':'http://www.amazon.in/SWISS-PRO-volley-ball-net/dp/B00YEKICRU/ref=sr_1_1?ie=UTF8&qid=1474699391&sr=8-1&keywords=volleyball+net','units_needed': 2,
     'units_fulfilled': 0,
     'cost': 300.00,
@@ -166,7 +166,7 @@ var wishlist = [{
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Beach_volleyball_ball.jpg'
 }, {
     'title': 'Football Shoes',
-    'descrip': 'The kids are getting coached, and would love to play in proper football shoes',
+    'descrip': 'The kids are getting coached, and would love to play in proper running/football shoes',
     'link':'','units_needed': 22,
     'units_fulfilled': 0,
     'cost': 400.00,
@@ -175,13 +175,13 @@ var wishlist = [{
 }];
 
 var genielist =[{
-	"name" : "Keerthana Gopalarishnan",
+	"name" : "Vikipik",
 	"message" : "I am such a dumbi!"
 },{
-	"name" : "ChinniKee",
+	"name" : "ChinniLee",
 	"message" : "I am such a dumbi!"
 },{
-	"name" : "Chinni Gopal",
+	"name" : "ChikkipillyWee",
 	"message" : "I am such a dumbi!"
 }]
 window.onload = function() {
@@ -199,7 +199,7 @@ window.onload = function() {
         	card.append($("<a></a>").addClass("tile-descrip col-md-12").attr("href", wishlist[i].link).html("Amazon/Flipkart link"));	
         }
         else{
-        	card.append($("<p></p>").addClass("tile-descrip col-md-12").html("[This item is not on amazon/flipkart or has size requirements. So, transfer the money into the above mentioned account number, and the items shall be bought.]"));	
+        	card.append($("<p></p>").addClass("tile-descrip col-md-12").html("[This item is not on amazon/flipkart or has size requirements. So, please contact us via email or the google form, so we can facilitate the transfer the money into the above mentioned account number for the purchase of items.]"));	
         }
         //card.append($("<button></button>").addClass("btn btn-danger buttony").html("Fulfill Wish <i class='fa fa-heart' aria-hidden='true'></i>"));
         var minicard = $("<div></div>").addClass("minicard1 col-md-12");
