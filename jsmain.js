@@ -29,7 +29,7 @@ var wishlist = [{
     'descrip': '6.5*6.5 sq. ft. mosquito nets for the kids to sleep in. This is an important necessity, especially during the monsoon seasons where dengue is at large.',
     'link': 'http://www.amazon.in/Blue-Classic-Heavy-Delux-Mosquito/dp/B01EJU6DQG/ref=sr_1_2?ie=UTF8&qid=1462739531&sr=8-2-spons&keywords=mosquito+net&psc=1',
     'units_needed': 4,
-    'units_fulfilled': 0,
+    'units_fulfilled': 3,
     'cost': 650.00,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/2/23/Malaria_prevention-Insecticide_treated_bed_net-PMI.jpg'
@@ -56,9 +56,9 @@ var wishlist = [{
     'descrip': 'Energy efficient CFL lights are needed to, as there are no streetlights nearby. Lights are needed in the dormitories and classrooms as well.',
     'link': 'http://www.amazon.in/Eveready-ELS-27-Watt-White-Pack/dp/B00HYBF0F8/ref=sr_1_1?ie=UTF8&qid=1474696445&sr=8-1&keywords=cfl+lights',
     'units_needed': 5,
-    'units_fulfilled': 0,
+    'units_fulfilled': 5,
     'cost': '339 (for 2)',
-    'status': 0,
+    'status': 1,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/b/bb/CFL-grow-light-dual-spectrum.jpg'
 }, {
     'title': 'Large Kadai',
@@ -84,7 +84,7 @@ var wishlist = [{
     'descrip': 'The kids play cricket often substituting tree stumps for bats. New bats could make their life easier as well as open up the sport for kids of all ages and girls.',
     'link':'http://www.amazon.in/Pepup-Sports-Striker05-Himachal-FinishTennis/dp/B00KMUO7IE/ref=sr_1_6?s=sports&ie=UTF8&qid=1474696924&sr=1-6&keywords=kids+cricket+bat',
     'units_needed': 10,
-    'units_fulfilled': 0,
+    'units_fulfilled': 1,
     'cost': 399,
     'status': 0,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/c/c6/A_modern_Cricket_bat_%28back_view%29.jpg'
@@ -151,9 +151,9 @@ var wishlist = [{
     'title': 'Volleyball Net',
     'descrip': 'This could also serve as a general purpose nets for other sports like throwball, badminton, etc. There are quite many kids interested in these sports. However, they currently substitute a net with a rope tied between two long poles.',
     'link':'http://www.amazon.in/SWISS-PRO-volley-ball-net/dp/B00YEKICRU/ref=sr_1_1?ie=UTF8&qid=1474699391&sr=8-1&keywords=volleyball+net','units_needed': 2,
-    'units_fulfilled': 0,
+    'units_fulfilled': 1,
     'cost': 300.00,
-    'status': 0,
+    'status': 1,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/2/29/Siatka.jpg'
 }, {
     'title': 'Volleyballs',
@@ -176,10 +176,11 @@ var wishlist = [{
 
 var genielist =[{
 
-	"name" : "",
-	"message" : 'Be our first genie! :)'
+	"name" : "Pavan",
+	"message" : 'as my brother loves criccket i want to donate bat behalf of him'
 
-}]
+}
+]
 window.onload = function() {
     for (var i = 0; i < wishlist.length; i++) {
         var tile = $("<div></div>").addClass("tile col-md-4");
