@@ -20,18 +20,18 @@ var wishlist = [{
     'descrip': 'There is currently one water purifier installed at the boys hostel near classrooms. However, the girls stay in a separate building at the other end of the compound, and since the distance to the purifier is large, they resort to drinking tap water. However, funds are currently not available to purchase a separate one for the girls.',
     'units_needed': '1',
     'link':'http://www.amazon.in/Eureka-Forbes-Aquaguard-Compact-Purifier/dp/B00HPTMZB6/ref=sr_1_9?ie=UTF8&qid=1474695861&sr=8-9&keywords=aquaguard',
-    'units_fulfilled': '0',
+    'units_fulfilled': '1',
     'cost': 7799.00,
-    'status': 0,
+    'status': 1,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/b/b4/Aquaguard_Water_Purifier_RO_Enhanced_-_Snap_2585.JPG'
 },{
     'title': 'Mosquito Net',
     'descrip': '6.5*6.5 sq. ft. mosquito nets for the kids to sleep in. This is an important necessity, especially during the monsoon seasons where dengue is at large.',
     'link': 'http://www.amazon.in/Blue-Classic-Heavy-Delux-Mosquito/dp/B01EJU6DQG/ref=sr_1_2?ie=UTF8&qid=1462739531&sr=8-2-spons&keywords=mosquito+net&psc=1',
     'units_needed': 4,
-    'units_fulfilled': 3,
+    'units_fulfilled': 4,
     'cost': 650.00,
-    'status': 0,
+    'status': 1,
     'imageURL': 'https://upload.wikimedia.org/wikipedia/commons/2/23/Malaria_prevention-Insecticide_treated_bed_net-PMI.jpg'
 },{
     'title': 'Sound Box',
@@ -179,7 +179,18 @@ var genielist =[{
 	"name" : "Pavan",
 	"message" : 'as my brother loves criccket i want to donate bat behalf of him'
 
+},{
+
+    "name" : "Vikram Voleti",
+    "message" : 'Great job! Exactly what every batch has wanted to do but somehow never got it going, kudos'
+
+},{
+
+    "name" : "Chinnu",
+    "message" : 'This is pretty cool. Do post results of how this turned out.'
+
 }
+
 ]
 window.onload = function() {
     for (var i = 0; i < wishlist.length; i++) {
